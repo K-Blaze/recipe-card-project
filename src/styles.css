@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #efefef;
+}
+
+.app {
+  padding: 30px 20px;
+}
+
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.recipe-card {
+  background: white;
+  width: 290px;
+  min-height: 640px;
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding: 22px 18px;
+}
+
+.recipe-card h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.cook-time {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.recipe-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+.status {
+  color: #3d6b2f;
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.ingredients-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ingredients-list p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.recipe-btn {
+  margin-top: 28px;
+  width: 95%;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  background: #2f6df6;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.recipe-btn:hover {
+  opacity: 0.9;
+}
